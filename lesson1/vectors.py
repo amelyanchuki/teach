@@ -1,0 +1,5 @@
+v1 = complex(2 , 4)
+v2 = complex(2 , 1)
+print (v1 + v2)
+v = complex(3, 4)
+print(abs(v * 3))
