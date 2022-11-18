@@ -1,7 +1,7 @@
 
-a = input("введите число\n")
+a = input("введите число\t")
 x = int(a)
-while x == int and x < 100:
+while x < 100:
     y = 1 
     x += y
     if x % 2 != 0:
