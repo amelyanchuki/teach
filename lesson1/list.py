@@ -1,9 +1,14 @@
-a = ["asd", [1, 2, "assa"], 123, "ssa"]
-
+a = ["asasdd", [1, 2, "assa"], 155423, "ssa"]
+b = []
 
 for i in a:
-    if i == 123:
-        continue
+    if len(i) <= 3:
+        b.append(i)
+        a.remove(i)
     else:
-        print(i)
+        ...
+
     
+print(a)
+print(b)
+
