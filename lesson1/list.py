@@ -1,14 +1,21 @@
-a = ["asasdd", [1, 2, "assa"], 155423, "ssa"]
+a = ["asasdd", ['123', 123, '12322'], [1, 2, "assa", 225], 155423, "skjhsa", "2321", 1253, "asdasf"]
 b = []
-
+c = []
+d = []
 for i in a:
-    if len(i) <= 3:
+    print(type(i))
+    if type(i) == str:
         b.append(i)
-        a.remove(i)
+        
+    elif type(i) == int:
+        c.append(i)
+        
     else:
-        ...
+        d.append(i)
 
     
+   
 print(a)
-print(b)
-
+print("все строки из списка",b)
+print("все целочисленные", c)
+print("всё остольное",d)
