@@ -1,5 +1,5 @@
 a = "qwertyuiopasdfghjklzxcvbnm"
-b = "good day"
+b = input("writ text \t")
 string = " "
 for i in a:
     if i not in b:
