@@ -1,6 +1,4 @@
-
-a = input("введите число\t")
-x = int(a)
+x = int(input("введите число\t"))
 while x < 100:
     y = 1 
     x += y
