@@ -41,3 +41,18 @@ def summ_sosed():
             b.append(i)
 
     print(*b)
+
+def sort_spiska():
+    a = [int(i) for i in input().split()]
+    a.sort()
+    b = []
+    for i in a:
+        if a.count(i) > 1:
+            if b.count(i) > 0:
+                continue
+            else:
+                b.append(i)
+        
+    print(*b)
+
+
